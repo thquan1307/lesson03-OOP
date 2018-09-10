@@ -13,5 +13,8 @@ public class SinhVien {
 		this.ly = ly;
 		this.hoa = hoa;
 	}
-
+	public double diemTrungBinh(double toan, double ly, double hoa) {
+		return (toan + ly + hoa) / 3;
+	}
+	
 }
